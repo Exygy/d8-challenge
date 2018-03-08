@@ -7,6 +7,19 @@
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "drupal/email_scrubber",
+        "version": "1.x-dev",
+        "type": "drupal-module",
+        "source": {
+          "url": "https://git.drupal.org/sandbox/koppie/2951008.git",
+          "type": "git",
+          "reference": "8.x-1.x-dev"
+        }
+      }
     }
   ],
     "require": {
@@ -17,6 +30,8 @@
     "drupal/config_installer": "^1.0",
     "drupal/console": "^1",
     "drupal/core": "^8",
+    "drupal/devel": "^1.2",
+    "drupal/email_scrubber": "1.x-dev",
     "drupal/simple_block": "^1.0@beta",
     "drush/drush": "~8",
     "rvtraveller/qs-composer-installer": "^1.1",

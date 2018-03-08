@@ -1,0 +1,7 @@
+name: d8-challenge
+recipe: pantheon
+config:
+  framework: drupal8
+  env: dev
+  site: d8-challenge
+  id: fb6b92ba-6601-4368-a238-7f2529f16bfd
